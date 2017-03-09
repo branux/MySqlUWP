@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="MySqlUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MySqlUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Padding="5">
+            <Button Name="ButtonCreate" Content="Create Table and Data" Click="ButtonCreate_OnClick"/>
+            <TextBox Name="TextBoxErro" Height="98"/>
+            <Button Name="ButtonFind" Content="Find User id = 1" Click="ButtonFind_OnClick"/>
+            <TextBlock Name="TextBlockName" Text="Result: "/>
+        </StackPanel>
+    </Grid>
+</Page>
